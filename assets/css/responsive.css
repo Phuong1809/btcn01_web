@@ -1,0 +1,16 @@
+@media (max-width:768px) {
+    
+    #main-product .listProduct,
+    #main-product .productSelected{
+        
+        width: 100%;
+    }
+    
+    #main-product .selectBtns{
+        flex-flow: row wrap;
+        width: 100%;
+    }
+    #main-product .listProduct-title{
+        text-align: left;
+    }
+}
