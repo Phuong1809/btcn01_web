@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <title>21120534</title>
- 
 </head>
 <body>
     <div id="app">
         <div id="header">
-            <p>Bài tập 1 - 21120534</p>
+            <p class="header-text">Bài tập 1 - 21120534</p>
         </div>
         <div id="nav">
             <ul id="menu">
@@ -24,8 +23,7 @@
             </ul>
         </div>
         <div id="body">
-            <div id="side">
-            </div>
+            <div id="side"></div>
             <div id="main">
                 <div id="main-header">
                     <div id="edit">
@@ -37,11 +35,9 @@
                             <button id="highlight">Highlight</button>
                             <button id="delete">Delete</button>
                             <button id="reset">Reset</button>
-                            
                         </div>
                         <div class="control-panel">
                             <button id="apply-sample-text">SampleText</button>
-
                             <input type="color" id="font-color" value="#000000">
                             <input type="color" id="background-color" value="#ffff00">
                             <label>
@@ -53,11 +49,8 @@
                             <label>
                                 <input type="checkbox" id="underline"> Underline
                             </label>
-                            
                         </div>
                     </div>
-                   
-                   
                     <p id="text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ratione dolorum,
                         sunt deleniti laborum asperiores molestias! Provident cumque amet, quod
                         cupiditate, ut animi sequi voluptate numquam, possimus quo quisquam minima.
@@ -71,6 +64,32 @@
                         praesentium optio velit quo sapiente quidem cumque iure ex aperiam debitis
                         error fuga voluptates. Maiores, sapiente?
                     </p>
+                </div>
+                <div id="drag-drop-container">
+                    <div class="drag-drop-header">
+                        <h3>Drag & Drop</h3>
+                        <select id="item-selector">
+                            <option value="Mouse" data-img="assets/img/Mouse.PNG">Mouse</option>
+                            <option value="Buffalo" data-img="assets/img/Buffalo.PNG">Buffalo</option>
+                            <option value="Tiger" data-img="assets/img/Tiger.PNG">Tiger</option>
+                            <option value="Cat" data-img="assets/img/Cat.PNG">Cat</option>
+                            <option value="Dragon" data-img="assets/img/Dragon.PNG">Dragon</option>
+                            <option value="Snake" data-img="assets/img/Snake.PNG">Snake</option>
+                            <option value="Horse" data-img="assets/img/Horse.PNG">Horse</option>
+                            <option value="Goat" data-img="assets/img/Goat.PNG">Goat</option>
+                            <option value="Monkey" data-img="assets/img/Monkey.PNG">Monkey</option>
+                            <option value="Rooster" data-img="assets/img/Rooster.PNG">Rooster</option>
+                            <option value="Dog" data-img="assets/img/Dog.PNG">Dog</option>
+                            <option value="Pig" data-img="assets/img/Pig.PNG">Pig</option>
+                        </select>
+                        <button id="add-new-item">Add New</button>
+                    </div>
+                    <div id="drop-area">
+                        
+                    </div>
+                    <div id="image-preview">
+                        
+                    </div>
                 </div>
             </div>
         </div>
@@ -89,5 +108,6 @@
     <script src="js/nav.js"></script>
     <script src="js/footer.js"></script>
     <script src="js/text.js"></script>
+    <script src="js/drag.js"></script>
 </body>
 </html>
